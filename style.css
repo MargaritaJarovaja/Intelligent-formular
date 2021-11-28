@@ -1,0 +1,129 @@
+*{
+    padding: o;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebdada;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin: 25px 0;
+    color: 	#fff;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: #8caba8;
+    margin-top: 90px;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+
+.btn{
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: #4c6e6e;
+    color: mintcream;
+    margin-left: 7px;
+ 
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: #f9f9f9;
+    color: #4c6e6e;
+    margin-left: 7px;
+    border: 0.5px solid #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: #8caba8;  
+    padding: 10px;
+    border-radius: 6px;
+}
+
+input{
+    margin-right: 7px;
+    height: 35px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+    width: 265px;
+}
+
+textarea {    
+    width: 316px;
+    min-height: 100px;
+    color: #8b5a74;
+    margin: 30px;    
+    padding: 10px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+}
+
+ #start{  
+    height: 35px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+    text-align: center;
+    margin: 15px;
+ }
+ 
+ #finish{      
+    height: 35px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+    text-align: center;
+    margin: 15px;
+ }
+
+ .country{
+    margin-right: 7px;
+    width: 265px;
+    height: 35px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+    text-align: center;
+ }
+
+ .form_group{
+    margin-right: 7px;
+    height: 35px;
+    border: 0.5px solid #8caba8;
+    border-radius: 3px;
+    text-align: center;
+    margin: 10px;
+    width: 165px;
+ }
+
+ .input.error {
+    border-color: red;
+}
+
+.js-input-date {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+ 

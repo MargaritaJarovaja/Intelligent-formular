@@ -1,0 +1,59 @@
+<!DOCTYPE html>     
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Intelligent formulär</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>        
+        <div id="container"> 
+            <h1>Bokning formulär</h1>  
+            <form action="example/submit.html" class="js-form" onsubmit="" novalidate >
+                <div class="form__group">
+                    <input type="text" class="input js-input" name="name" placeholder="Namn">
+                </div>
+                <div class="form__group">
+                    <input type="text" class="input js-input" name="last_name" placeholder="Efternamn"  >
+                </div>
+                <div class="form__group">
+                    <input type="email" class="input js-input js-input-email" name="email" placeholder="Email"  >
+                </div>
+                <div class="form__group">
+                    <input type="tel" class="input js-input js-input-phone" name="phone" placeholder="Telefone" >
+                </div>
+                <div class="form__group"> 
+                        <select name="land" class="input js-input" >
+                            <option value="Välj land">Välj land</option>
+                            <option value="Sverige">Sverige</option>
+                            <option value="Norge">Norge</option>
+                            <option value="Lettland">Lettland</option>
+                            <option value="Tyskland">Tyskland</option>
+                        </select>                                          
+                </div>
+            </form> 
+            <div id="selection"></div> 
+                <div class="form__group">
+                    <form id="Avresa">
+                        <label for="subject" class="input  js-input-date">AVRESA</label><br>
+                            <input type="date" id="start" name="trip-start"
+                                value="2021-10-19"
+                                min="2021-10-19" max="2022-12-31">
+                    </form>              
+                </div>
+                <div class="form__group">
+                    <form id="hemresa">
+                        <label for="subject" class="input  js-input-date">HEMRESA</label><br>
+                        <input type="date" id="finish" name="trip-end"
+                            value="2021-10-19"
+                            min="2021-10-19" max="2022-12-31">
+                    </form>                  
+                </div>
+                <button class="btn" type="submit" id="submit">
+                    Boka resan
+                </button>
+                
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
