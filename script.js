@@ -113,8 +113,11 @@ if (inputDateStart.value<inputDateFinish.value)
     console.log(inputDateFinish.value);
 }
 else
+{
     alert('Ankomstdatum kan inte infalla tidigare än avresedatumet!!');
     console.log('Data not valid');
+}
+   
 } 
 headBtn.onclick=form.onsubmit;
 
